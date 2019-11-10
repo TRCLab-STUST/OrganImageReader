@@ -1,0 +1,938 @@
+'	0	0	0	0	8500
+Cranium without mandible	222	204	227	35	1010
+Parietal bone	199	209	230	35	620
+Frontal bone	79	120	214	70	620
+Occipital bone	74	36	94	305	810
+Temporal bone	20	33	66	390	865
+Ethmoid bone	0	36	125	595	875
+Crista galli	0	166	222	545	620
+Lacrimal bone	130	217	212	625	710
+Lacrimal bone	0	92	84	625	710
+Nasal bone	171	222	189	600	710
+Maxilla	0	99	56	610	710
+Zygomatic bone	51	115	33	590	870
+Zygomatic bone	105	92	0	560	870
+Mandible	92	92	79	735	1250
+First cervical vertebra	71	51	51	800	930
+Second cervical vertebra	138	107	112	825	1040
+Third cervical vertebra	217	201	199	1000	1125
+Fourth cervical vertebra	66	74	82	1090	1205
+Fifth cervical vertebra	173	173	173	1170	1305
+Sixth cervical vertebra	140	143	145	1250	1405
+Seventh cervical vertebra	209	209	204	1345	1500
+First thoracic vertebra	232	227	217	1405	1600
+Second thoracic vertebra	207	201	196	1490	1705
+Third thoracic vertebra	135	135	133	1595	1815
+Fourth thoracic vertebra	59	51	28	1715	1985
+Fifth thoracic vertebra	41	46	38	1830	2160
+Sixth thoracic vertebra	69	46	46	1945	2260
+Seventh thoracic vertebra	230	219	209	2075	2365
+Eighth thoracic vertebra	148	135	122	2200	2500
+Ninth thoracic vertebra	184	171	158	2320	2625
+Tenth thoracic vertebra	125	112	97	2465	2740
+Eleventh thoracic vertebra	181	176	173	2600	2860
+Twelfth thoracic vertebra	207	196	184	2765	2990
+First lumbar vertebra	71	64	38	2940	3175
+Second lumbar vertebra	99	84	18	3095	3345
+Third lumbar vertebra	84	64	31	3255	3525
+Fourth lumbar vertebra	130	89	31	3435	3675
+Fifth lumbar vertebra	224	212	120	3625	3825
+Sacrum	130	112	38	3765	4310
+Coccyx	181	179	0	4295	4460
+First rib	186	158	102	1435	1810
+First rib	224	214	181	1430	1795
+Second rib	77	38	18	1495	1910
+Second rib	143	92	48	1495	1905
+Third rib	176	128	87	1605	2065
+Third rib	212	173	143	1595	2075
+Fourth rib	153	79	20	1720	2225
+Fourth rib	237	186	143	1715	2230
+Fifth rib	242	209	181	1830	2395
+Fifth rib	82	41	200	1835	2390
+Sixth rib	125	77	56	1945	2610
+Sixth rib	199	171	153	1950	2625
+Seventh rib	224	207	191	2075	2810
+Seventh rib	227	153	99	2075	2835
+Eighth rib	97	51	20	2205	2995
+Eighth rib	201	171	100	2205	3010
+Ninth rib	224	207	100	2335	3100
+Ninth rib	105	46	31	2335	3115
+Tenth rib	156	48	26	2460	3205
+Tenth rib	212	46	18	2460	3220
+Eleventh rib	232	148	125	2610	3335
+Eleventh rib	235	171	148	2615	3300
+Twelfth rib	89	38	38	2790	3280
+Twelfth rib	143	51	54	2795	3200
+Sternum	235	166	176	1650	2700
+Scapula	242	194	199	1380	2185
+Scapula	79	31	38	1350	2175
+Clavicle	110	38	54	1385	1725
+Clavicle	214	140	161	1360	1725
+Humerus	130	28	107	1455	2880
+Humerus	217	130	191	1455	2885
+Radius	77	38	59	2875	3995
+Radius	112	64	94	2875	3995
+Ulna	196	166	181	2745	3995
+Ulna	92	43	89	2740	3995
+Scaphoid	219	196	204	3950	4065
+Scaphoid	176	133	179	3945	4065
+Lunate	156	161	189	3945	4010
+Lunate	41	51	82	3930	4010
+Triquetrum	199	191	201	3980	4050
+Triquetrum	71	59	99	3950	4050
+Pisiform	212	176	217	4010	4065
+Pisiform	120	20	150	3990	4055
+Trapezium	84	38	87	4060	4120
+Trapezium	217	196	0	4035	4120
+Trapezoid	204	176	184	4035	4105
+Trapezoid	143	102	120	4030	4105
+Capitate	97	56	77	4005	4110
+Capitate	173	115	196	3985	4110
+Hamate	140	130	158	4015	4125
+Hamate	0	64	79	3995	4125
+First metacarpal bone	100	69	0	4100	4305
+First metacarpal bone	99	153	171	4080	4300
+Second metacarpal bone	23	56	51	4085	4360
+Second metacarpal bone	61	92	87	4070	4350
+Third metacarpal bone	102	125	120	4065	4370
+Third metacarpal bone	145	161	156	4065	4375
+Fourth metacarpal bone	0	41	46	4095	4375
+Fourth metacarpal bone	18	99	107	4095	4375
+Fifth metacarpal bone	89	143	148	4095	4340
+Fifth metacarpal bone	135	173	176	4095	4340
+First proximal phalanx	92	120	143	4300	4395
+First proximal phalanx	133	159	168	4300	4395
+Second proximal phalanx	41	71	61	4365	4550
+Second proximal phalanx	31	97	87	4360	4550
+Third proximal phalanx	26	120	110	4375	4575
+Third proximal phalanx	125	186	176	4375	4580
+Fourth proximal phalanx	212	227	219	4370	4560
+Fourth proximal phalanx	92	112	94	4370	4570
+Fifth proximal phalanx	26	48	36	4345	4500
+Fifth proximal phalanx	113	130	0	4345	4505
+Second middle phalanx	156	166	150	4530	4620
+Second middle phalanx	209	212	199	4530	4625
+Third middle phalanx	31	56	46	4545	4605
+Third middle phalanx	79	110	94	4545	4600
+Fourth middle phalanx	115	143	128	4525	4600
+Fourth middle phalanx	148	168	200	4525	4570
+Fifth middle phalanx	173	191	176	4460	4525
+Fifth middle phalanx	161	204	196	4460	4505
+First distal phalanx	191	219	212	4400	4500
+First distal phalanx	181	191	176	4400	4500
+Second distal phalanx	28	69	56	4600	4635
+Second distal phalanx	0	105	89	4605	4635
+Third distal phalanx	64	79	33	4570	4600
+Third distal phalanx	84	117	43	4565	4600
+Fourth distal phalanx	179	210	140	4575	4600
+Fourth distal phalanx	212	222	0	4495	4555
+Fifth distal phalanx	61	71	33	4500	4515
+Fifth distal phalanx	94	102	56	4460	4500
+Hip bone	176	181	140	3670	4625
+Hip bone	212	212	184	3635	4620
+Femur	64	71	20	4215	6180
+Femur	112	117	43	4200	6180
+Patella	140	148	77	5910	6110
+Patella	168	181	10	5890	6110
+Tibia	202	214	71	6155	7705
+Tibia	123	69	100	6150	7715
+Fibula	125	120	44	6200	7745
+Fibula	0	133	117	6200	7745
+Talus	128	199	186	7655	7860
+Talus	199	227	217	7655	7860
+Calcaneum	148	153	110	7650	7950
+Calcaneum	240	235	176	7650	7950
+Navicular	212	191	18	7800	7900
+Navicular	235	230	87	7800	7905
+Medial cuneiform	153	143	36	7855	8005
+Medial cuneiform	196	209	196	7880	8020
+Intermediate cuneiform	36	87	69	7845	7965
+Intermediate cuneiform	181	217	222	7885	7985
+Lateral cuneiform	163	189	173	7855	7985
+Lateral cuneiform	133	120	13	7875	7995
+Cuboid	217	212	153	7860	8015
+Cuboid	125	161	143	7860	8040
+First metatarsal bone	201	196	120	7970	8240
+First metatarsal bone	5	46	33	7990	8265
+Second metatarsal bone	87	130	112	7940	8270
+Second metatarsal bone	179	171	74	7975	8300
+Third metatarsal bone	224	219	171	7985	8245
+Third metatarsal bone	176	158	13	7985	8315
+Fourth metatarsal bone	94	130	171	7970	8235
+Fourth metatarsal bone	0	43	94	8025	8325
+Fifth metatarsal bone	140	204	217	7975	8270
+Fifth metatarsal bone	92	186	204	8025	8315
+First proximal phalanx	0	120	173	8220	8355
+First proximal phalanx	158	176	201	8240	8390
+Second proximal phalanx	120	140	179	8210	8270
+Second proximal phalanx	10	33	79	8275	8375
+Third proximal phalanx	199	209	227	8220	8270
+Third proximal phalanx	66	107	186	8280	8375
+Fourth proximal phalanx	15	31	122	8220	8275
+Fourth proximal phalanx	153	214	227	8285	8375
+Fifth proximal phalanx	202	212	200	8220	8270
+Fifth proximal phalanx	38	87	135	8300	8385
+Second middle phalanx	161	173	0	8250	8340
+Second middle phalanx	71	41	92	8345	8415
+Third middle phalanx	102	71	120	8250	8325
+Third middle phalanx	161	0	82	8345	8415
+Fourth middle phalanx	209	97	156	8250	8325
+Fourth middle phalanx	230	166	196	8350	8390
+Fifth middle phalanx	207	150	176	8260	8315
+Fifth middle phalanx	110	33	66	8340	8400
+First distal phalanx	150	64	105	8340	8430
+First distal phalanx	128	51	56	8370	8480
+Second distal phalanx	219	166	168	8330	8385
+Second distal phalanx	125	33	74	8370	8480
+Third distal phalanx	222	173	100	8285	8380
+Third distal phalanx	191	92	0	8370	8475
+Fourth distal phalanx	207	41	48	8285	8365
+Fourth distal phalanx	128	61	3	8370	8460
+Fifth distal phalanx	214	143	84	8305	8355
+Fifth distal phalanx	158	38	41	8390	8465
+Interspinous ligament (L I - L II)	252	122	176	3165	3225
+Interspinous ligament (L II - L III)	245	74	145	3335	3375
+Interspinous ligament (L III - L IV)	230	8	110	3515	3585
+Interspinous ligament (L IV - L V)	232	110	173	3655	3705
+Interspinous ligament (L V - Sacrum)	222	31	130	3765	3950
+Ligamentum flavum (L I - L II)	250	189	204	3055	3195
+Ligamentum flavum (L II - L III)	247	153	181	3230	3375
+Ligamentum flavum (L III - L IV)	242	84	130	3410	3545
+Ligamentum flavum (L IV - L V)	224	0	71	3585	3695
+Ligamentum flavum (L V - Sacrum)	255	158	194	3745	3880
+Supraspinous ligament	240	224	125	2945	4055
+Anterior longitudinal ligament	171	142	10	2945	3935
+Posterior longitudinal ligament	245	227	158	2945	3745
+Intervertebral disc (C II - C III)	214	99	115	1000	1030
+Intervertebral disc (C III - C IV)	97	48	5	1095	1130
+Intervertebral disc (C IV - C V)	196	143	94	1195	1225
+Intervertebral disc (C V - C VI)	230	196	20	1285	1335
+Intervertebral disc (C VI - C VII)	191	115	41	1370	1435
+Intervertebral disc (C VII - T I)	230	176	128	1465	1525
+Intervertebral disc (T I - T II)	240	196	158	1560	1620
+Intervertebral disc (T II - T III)	148	77	3	1660	1720
+Intervertebral disc (T III - T IV)	237	207	181	1765	1815
+Intervertebral disc (T IV - T V)	227	191	156	1870	1915
+Intervertebral disc (T V - T VI)	214	171	130	1985	2020
+Intervertebral disc (T VI - T VII)	171	112	56	2110	2135
+Intervertebral disc (T VII - T VIII)	120	64	8	2230	2260
+Intervertebral disc (T VIII - T IX)	242	207	0	2355	2385
+Intervertebral disc (T IX - T X)	207	105	0	2480	2515
+Intervertebral disc (T X - T XI)	232	125	13	2620	2645
+Intervertebral disc (T XI - T XII)	247	150	66	2755	2790
+Intervertebral disc (T XII - L I)	252	176	115	2905	2945
+Intervertebral disc (L I - L II)	255	194	145	3055	3120
+Intervertebral disc (L II - L III)	252	207	166	3215	3295
+Intervertebral disc (L III - L IV)	227	69	89	3405	3475
+Intervertebral disc (L IV - L V)	237	102	122	3610	3685
+Intervertebral disc (L V - Sacrum)	247	143	158	3785	3900
+Sacrotuberous ligament	222	219	50	4265	4550
+Sacrotuberous ligament	194	196	163	4230	4550
+Sacrospinous ligament	201	196	145	4265	4325
+Sacrospinous ligament	173	171	105	4230	4320
+Acetabular labrum	214	207	64	4230	4265
+Acetabular labrum	237	235	135	4210	4240
+Transverse acetabular ligament	227	191	204	4350	4395
+Transverse acetabular ligament	224	219	110	4315	4385
+Ligament of head of femur	235	194	212	4270	4345
+Ligament of head of femur	232	201	209	4230	4310
+Lateral meniscus	232	140	153	6135	6145
+Medial meniscus	250	199	204	6180	6200
+Anterior cruciate ligament	240	217	26	6020	6165
+Posterior cruciate ligament	102	20	41	6105	6215
+Fibular collateral ligament	189	102	10	6000	6190
+Tibial collateral ligament	224	166	82	6010	6300
+Buccinator m.	153	20	38	850	1095
+Buccinator m.	209	176	204	850	1095
+Masseter m.	148	46	181	735	1130
+Masseter m.	163	97	189	720	1130
+Temporal m.	194	186	217	125	930
+Temporal m.	102	74	120	125	925
+Lateral pterygoid m.	199	79	79	725	890
+Lateral pterygoid m.	166	122	163	720	865
+Medial pterygoid m.	156	140	201	805	1090
+Medial pterygoid m.	140	33	74	805	1085
+Longus colli m.	100	100	150	880	1745
+Longus colli m.	100	100	250	880	1685
+Longus capitis m.	212	125	23	740	1405
+Longus capitis m.	222	84	51	730	1405
+Anterior scalenus m.	232	105	135	1290	1630
+Anterior scalenus m.	120	51	69	1295	1630
+Middle scalenus m.	212	143	0	1345	1565
+Middle scalenus m.	130	184	201	1345	1565
+Posterior scalenus m.	13	92	145	1090	1625
+Posterior scalenus m.	0	54	89	1105	1660
+Sternocleidomastoid m.	184	219	214	825	1650
+Sternocleidomastoid m.	92	201	186	805	1650
+Anterior rectus capitis m.	0	181	189	755	845
+Anterior rectus capitis m.	0	105	128	755	830
+Rectus capitis lateralis m.	156	224	214	800	925
+Rectus capitis lateralis m.	117	194	189	785	870
+Posterior rectus capitis major m.	0	97	0	775	1015
+Posterior rectus capitis major m.	94	120	3	755	1005
+Posterior rectus capitis minor m.	115	107	74	730	860
+Posterior rectus capitis minor m.	69	79	36	730	860
+Superior obliquus capitis m.	0	92	64	720	895
+Superior obliquus capitis m.	36	94	54	660	895
+Inferior obliquus capitis m.	54	163	145	865	1045
+Inferior obliquus capitis m.	0	130	140	855	1045
+Digastric m.	107	171	77	805	1250
+Digastric m.	97	145	61	735	1250
+Stylohyoid m.	194	207	139	825	1170
+Stylohyoid m.	110	130	51	845	1170
+Mylohyoid m.	130	97	59	985	1250
+Mylohyoid m.	143	115	79	985	1230
+Geniohyoid m.	230	194	140	1070	1230
+Geniohyoid m.	219	173	107	1070	1235
+Sternohyoid m.	186	196	140	1235	1775
+Sternohyoid m.	158	179	135	1235	1775
+Omohyoid m.	125	143	41	1220	1565
+Omohyoid m.	171	158	110	1220	1530
+Sternothyroid m.	199	143	61	1325	1755
+Sternothyroid m.	153	89	5	1325	1755
+Thyrohyoid m.	235	79	179	1160	1395
+Thyrohyoid m.	184	56	71	1170	1405
+Trapezius m.	61	212	133	800	2670
+Trapezius m.	0	199	130	800	2515
+Latissimus dorsi m.	89	135	135	2000	3600
+Latissimus dorsi m.	5	84	89	1965	3550
+Rhomboid major m.	148	222	110	1435	2185
+Rhomboid major m.	102	212	61	1420	2185
+Rhomboid minor m.	153	84	200	1355	1615
+Rhomboid minor m.	204	145	112	1345	1615
+Levator scapulae m.	43	87	99	950	1570
+Levator scapulae m.	176	232	199	945	1565
+Posterior superior serratus m.	92	71	56	1410	1860
+Posterior superior serratus m.	237	194	179	1395	1910
+Erector spinae m.	0	255	30	2205	2940
+Erector spinae m.	0	255	150	2205	2940
+Iliocostalis m.	222	204	18	2945	3835
+Iliocostalis m.	230	222	15	2945	3835
+Iliocostalis lumborum m.	50	50	0	1240	2200
+Iliocostalis lumborum m.	50	50	200	1190	2200
+Longissimus m.	102	89	77	2945	3900
+Longissimus m.	125	115	102	2945	3900
+Longissimus cervicis m.	50	50	100	885	2200
+Longissimus cervicis m.	50	50	150	885	2200
+Longissimus capitis m.	74	56	38	805	1245
+Longissimus capitis m.	163	161	153	795	1245
+Splenius capitis m.	138	145	200	710	1670
+Splenius capitis m.	33	46	56	685	1515
+Transversospinales m.	140	176	100	1020	4100
+Transversospinales m.	199	214	100	1030	4100
+Semispinalis cervicis m.	100	50	50	1040	2115
+Semispinalis cervicis m.	100	50	100	1040	2110
+Semispinalis capitis m.	140	59	23	630	1945
+Semispinalis capitis m.	102	82	61	590	2090
+Pectoralis major m.	130	110	0	1540	2610
+Pectoralis major m.	168	150	130	1460	2625
+Pectoralis minor m.	196	189	163	1570	2030
+Pectoralis minor m.	171	163	135	1520	2030
+Subclavius m.	112	110	112	1500	1630
+Subclavius m.	176	191	191	1475	1615
+Anterior serratus m.	168	173	176	1450	2685
+Anterior serratus m.	158	112	82	1405	2690
+Intercostal m.	148	130	10	1460	3350
+Intercostal m.	247	227	74	1460	3350
+Diaphragm	84	61	61	2505	3245
+Rectus abdominis m.	252	214	71	2510	4260
+Rectus abdominis m.	252	201	23	2480	4270
+External oblique abdominal m.	223	173	18	2480	3820
+External oblique abdominal m.	179	140	200	2480	3795
+Internal oblique abdominal m.	125	212	222	3335	4260
+Internal oblique abdominal m.	46	199	214	3340	4235
+Transversus abdominis m.	0	82	250	2730	4190
+Transversus abdominis m.	0	156	163	2730	4185
+Quadratus lumborum m.	74	204	212	2945	3695
+Quadratus lumborum m.	0	153	0	2945	3680
+Levator ani m.	0	201	150	4350	4600
+Coccygeus m.	199	5	64	4305	4405
+Coccygeus m.	166	15	56	4305	4395
+Deltoid m.	0	105	122	1370	2115
+Deltoid m.	0	61	77	1350	2110
+Supraspinatus m.	0	179	161	1435	1585
+Supraspinatus m.	0	150	135	1415	1560
+Infraspinatus m.	0	115	54	1470	2105
+Infraspinatus m.	0	150	69	1470	2065
+Teres minor m.	74	97	28	1620	1960
+Teres minor m.	79	140	13	1575	1960
+Teres major m.	125	209	184	1740	2140
+Teres major m.	0	179	143	1735	2115
+Subscapularis m.	110	107	13	1540	2140
+Subscapularis m.	138	143	5	1510	2105
+Biceps brachii m.	143	212	0	1685	2990
+Biceps brachii m.	125	186	0	1665	2990
+Coracobrachialis m.	150	138	100	1590	2315
+Coracobrachialis m.	184	168	13	1580	2275
+Brachialis m.	99	84	50	1975	3035
+Brachialis m.	125	110	200	1975	3035
+Triceps brachii m.	207	186	0	1715	2790
+Triceps brachii m.	189	166	0	1715	2775
+Anconeus m.	153	138	66	2720	2820
+Anconeus m.	181	166	107	2715	2780
+Pronator teres m.	140	92	122	2675	3460
+Pronator teres m.	166	125	148	2675	3460
+Flexor carpi radialis m.	135	74	77	2830	4100
+Flexor carpi radialis m.	163	102	107	2830	4100
+Palmaris longus m.	156	26	135	2825	3875
+Palmaris longus m.	230	163	204	2825	3875
+Flexor carpi ulnaris m.	194	158	194	2820	4045
+Flexor carpi ulnaris m.	209	179	204	2820	4045
+Flexor digitorum superficialis m.	186	130	133	2800	4570
+Flexor digitorum superficialis m.	212	168	168	2800	4570
+Flexor digitorum profundus m.	237	186	100	2855	4570
+Flexor digitorum profundus m.	232	171	186	2840	4570
+Flexor pollicis longus m.	41	43	54	3115	3875
+Flexor pollicis longus m.	46	64	107	3110	3890
+Pronator quadratus m.	102	28	120	3660	3990
+Pronator quadratus m.	204	163	214	3650	3930
+Brachioradialis m.	46	36	71	2345	3505
+Brachioradialis m.	0	43	69	2345	3505
+Extensor carpi radialis longus m.	0	48	92	2610	3875
+Extensor carpi radialis longus m.	0	64	122	2610	3875
+Extensor carpi radialis brevis m.	33	66	48	2820	3625
+Extensor carpi radialis brevis m.	36	97	71	2805	3630
+Extensor digitorum m.	102	153	194	2785	4485
+Extensor digitorum m.	156	186	214	2775	4485
+Extensor digiti minimi m.	94	92	100	3040	4335
+Extensor digiti minimi m.	133	135	5	3000	4335
+Extensor carpi ulnaris m.	54	87	140	2800	3875
+Extensor carpi ulnaris m.	15	48	99	2725	3875
+Supinator m.	120	150	207	2880	3370
+Supinator m.	8	51	143	2870	3350
+Abductor pollicis longus m.	0	140	186	3155	4120
+Abductor pollicis longus m.	0	158	199	3140	4120
+Extensor pollicis brevis m.	0	105	133	3625	3875
+Extensor pollicis brevis m.	0	128	158	3625	3875
+Extensor pollicis longus m.	186	115	150	3265	3875
+Extensor pollicis longus m.	158	71	112	3230	3875
+Extensor indicis m.	201	133	163	3435	4500
+Extensor indicis m.	184	105	100	3435	4500
+Palmaris brevis m.	128	99	143	4015	4235
+Palmaris brevis m.	168	145	176	4010	4235
+Abductor pollicis brevis m.	148	69	79	4015	4275
+Abductor pollicis brevis m.	179	102	112	4010	4265
+Flexor pollicis brevis m.	194	102	200	4140	4295
+Flexor pollicis brevis m.	176	66	105	4120	4295
+Opponens pollicis m.	237	181	18	4070	4260
+Opponens pollicis m.	232	176	18	4070	4250
+Adductor pollicis m.	230	51	117	4175	4310
+Adductor pollicis m.	194	46	89	4165	4310
+Abductor digiti minimi m.	71	153	181	4035	4340
+Abductor digiti minimi m.	0	148	100	4010	4340
+Flexor digiti minimi brevis m.	0	173	181	4100	4340
+Flexor digiti minimi brevis m.	0	121	156	4095	4340
+Opponens digiti minimi m.	194	194	214	4120	4290
+Opponens digiti minimi m.	145	166	219	4100	4290
+Lumbrical m.	0	138	0	4120	4395
+Lumbrical m.	0	191	99	4120	4395
+Dorsal interossei m.	227	212	173	4090	4405
+Dorsal interossei m.	181	184	250	4085	4405
+Palmar interossei m.	196	173	15	4150	4365
+Palmar interossei m.	168	150	10	4145	4365
+Iliopsoas m.	222	135	3	3965	4675
+Iliopsoas m.	194	125	5	3965	4675
+Iliacus m.	150	0	90	3680	3960
+Iliacus m.	150	0	200	3665	3960
+Psoas major m.	160	50	100	2945	3960
+Psoas major m.	160	50	200	2945	3960
+Gluteus maximus m.	112	51	31	3740	5030
+Gluteus maximus m.	150	51	15	3735	5030
+Gluteus medius m.	250	181	100	3705	4455
+Gluteus medius m.	250	181	171	3670	4445
+Gluteus minimus m.	250	99	20	3830	4370
+Gluteus minimus m.	250	99	59	3785	4310
+Tensor fasciae latae m.	120	31	28	4040	4795
+Tensor fasciae latae m.	173	38	36	4015	4795
+Piriformis m.	214	28	56	4060	4300
+Piriformis m.	224	79	102	4060	4275
+Obturator internus m.	186	18	43	4110	4560
+Obturator internus m.	156	31	46	4130	4555
+Superior gemellus m.	10	87	135	4285	4375
+Superior gemellus m.	242	56	166	4275	4355
+Inferior gemellus m.	182	26	184	4345	4445
+Inferior gemellus m.	166	0	102	4325	4440
+Quadratus femoris m.	232	191	0	4390	4670
+Quadratus femoris m.	222	156	217	4375	4670
+Sartorius m.	153	0	112	4025	6395
+Sartorius m.	130	0	94	4015	6300
+Rectus femoris m.	150	69	148	4215	6390
+Rectus femoris m.	112	18	107	4195	6390
+Vastus lateralis m.	194	153	209	4415	5865
+Vastus lateralis m.	171	115	194	4400	5840
+Vastus intermedius m.	82	28	120	4475	5940
+Vastus intermedius m.	89	23	138	4470	5940
+Vastus medialis m.	102	15	0	4635	6010
+Vastus medialis m.	110	10	120	4575	5995
+Articularis genus m.	196	166	222	5865	5940
+Articularis genus m.	148	97	201	5865	5940
+Pectineus m.	115	41	176	4255	4730
+Pectineus m.	71	10	89	4245	4730
+Adductor longus m.	82	0	107	4490	5400
+Adductor longus m.	89	0	117	4480	5360
+Adductor brevis m.	199	173	219	4465	5045
+Adductor brevis m.	181	145	214	4465	5045
+Adductor magnus m.	209	163	204	4525	5705
+Adductor magnus m.	214	163	150	4510	5705
+Gracilis m.	199	130	209	4595	6335
+Gracilis m.	171	69	191	4585	6335
+Obturator externus m.	156	112	204	4390	4600
+Obturator externus m.	135	77	191	4400	4590
+Biceps femoris m.	171	189	227	4780	6155
+Biceps femoris m.	186	196	227	4805	6165
+Semitendinosus m.	102	125	209	4595	6425
+Semitendinosus m.	51	66	181	4585	6425
+Semimembranosus m.	171	158	217	4690	6315
+Semimembranosus m.	143	125	207	4690	6315
+Anterior tibialis m.	79	0	125	6265	7980
+Anterior tibialis m.	61	26	84	6255	8010
+Extensor digitorum longus m.	115	189	10	6235	7795
+Extensor digitorum longus m.	46	0	153	6215	8235
+Extensor hallucis longus m.	115	181	224	6565	7795
+Extensor hallucis longus m.	10	148	214	6565	8165
+Fibularis longus m.	84	219	194	6225	8065
+Fibularis longus m.	0	156	130	6210	8085
+Fibularis brevis m.	122	20	82	6705	8045
+Fibularis brevis m.	217	41	171	6705	8045
+Gastrocnemius m.	0	71	107	5920	7090
+Gastrocnemius m.	0	54	74	5930	7090
+Soleus m.	41	194	222	6210	7385
+Soleus m.	0	171	201	6210	7385
+Plantaris m.	0	59	0	5910	7370
+Plantaris m.	0	69	77	5910	7370
+Popliteus m.	0	112	115	6160	6710
+Popliteus m.	0	97	99	6160	6710
+Posterior tibialis m.	33	33	26	6310	7830
+Posterior tibialis m.	56	43	38	6305	7830
+Flexor digitorum longus m.	0	66	54	6675	8310
+Flexor digitorum longus m.	0	77	64	6675	8345
+Flexor hallucis longus m.	97	209	204	6655	8400
+Flexor hallucis longus m.	87	199	194	6655	8400
+Extensor digitorum brevis m.	143	214	171	7800	8150
+Extensor digitorum brevis m.	99	204	150	7815	8150
+Abductor hallucis m.	51	140	38	7755	8100
+Abductor hallucis m.	41	153	38	7745	8065
+Flexor hallucis brevis m.	26	71	43	7895	8185
+Flexor hallucis brevis m.	20	77	41	7885	8185
+Adductor hallucis m. oblique head	0	71	222	7975	8200
+Adductor hallucis m. oblique head	0	102	71	7975	8310
+Adductor hallucis m. transverse head	0	120	84	8060	8190
+Adductor hallucis m. transverse head	0	176	122	8060	8205
+Abductor digiti minimi m.	0	176	82	7865	8285
+Abductor digiti minimi m.	115	222	158	7820	8285
+Flexor digiti minimi brevis m.	0	153	112	7865	8245
+Flexor digiti minimi brevis m.	0	122	0	7840	8285
+Flexor digitorum brevis m.	13	176	43	7830	8155
+Flexor digitorum brevis m.	84	194	71	7775	8170
+Quadratus plantae m.	107	143	0	7765	8160
+Quadratus plantae m.	77	89	13	7750	8160
+Plantar interossei m.	161	158	143	8040	8235
+Plantar interossei m.	140	138	122	8085	8235
+Parotid gland	186	189	186	755	1025
+Parotid gland	161	163	200	780	1045
+Sublingual gland	148	128	10	1055	1205
+Sublingual gland	173	148	13	1055	1170
+Submandibular gland	230	222	145	1020	1245
+Submandibular gland	217	204	97	1030	1235
+Medial maxillary incisor tooth	207	235	128	930	1030
+Medial maxillary incisor tooth	240	212	219	930	1030
+Lateral maxillary incisor tooth	186	232	92	930	1030
+Lateral maxillary incisor tooth	227	217	222	930	1030
+Maxillary canine tooth	222	232	102	895	1020
+Maxillary canine tooth	222	209	0	895	1020
+First maxillary premolar tooth	209	227	56	920	1015
+First maxillary premolar tooth	237	204	201	920	1015
+Second maxillary premolar tooth	196	219	13	1035	1120
+Second maxillary premolar tooth	247	219	23	1035	1120
+First maxillary molar tooth	227	235	105	890	1000
+First maxillary molar tooth	250	224	115	890	1000
+Second maxillary molar tooth	219	232	200	880	980
+Second maxillary molar tooth	140	66	0	880	980
+Medial mandibular incisor tooth	150	140	8	1035	1125
+Medial mandibular incisor tooth	94	56	18	1035	1125
+Lateral mandibular incisor tooth	171	163	10	1040	1125
+Lateral mandibular incisor tooth	252	209	148	1040	1125
+Mandibular canine tooth	191	184	10	1040	1145
+Mandibular canine tooth	242	79	0	1040	1145
+First mandibular premolar tooth	222	222	13	1040	1130
+First mandibular premolar tooth	250	128	133	1040	1130
+Second mandibular premolar tooth	209	201	189	995	1075
+Second mandibular premolar tooth	176	28	46	995	1075
+First mandibular molar tooth	194	184	171	1015	1105
+First mandibular molar tooth	235	156	168	1015	1105
+Second mandibular molar tooth	212	201	189	905	1010
+Second mandibular molar tooth	143	23	54	905	1010
+Tongue	18	28	38	920	1180
+Genioglossus m.	64	59	51	1005	1155
+Genioglossus m.	92	71	20	1005	1155
+Hyoglossus m.	217	212	186	1025	1230
+Hyoglossus m.	201	199	166	1025	1235
+Styloglossus m.	74	69	33	880	1055
+Styloglossus m.	79	74	33	880	1055
+Palatoglossus m.	232	212	191	1020	1050
+Palatoglossus m.	224	194	168	1020	1050
+Soft palate	153	112	89	835	920
+Tensor veli palatini	179	143	122	735	895
+Levator veli palatini	201	181	130	730	950
+Pharynx	214	196	153	835	1090
+Constrictor m.	79	51	0	800	1465
+Stylopharyngeus m.	92	48	33	805	1010
+Stylopharyngeus m.	112	56	36	795	1010
+Esophagus (mural)	26	24	1	1365	2740
+Esophagus (luminal)	171	130	102	1400	2740
+Stomach (mural)	237	189	168	2745	3400
+Stomach (luminal)	1	181	22	2745	3395
+Duodenum	237	204	186	3115	3355
+Jejunum and ileum	1	41	1	3155	4255
+Cecum	200	38	200	3625	3780
+Appendix	224	204	217	3785	4030
+Ascending colon	230	214	214	3225	3780
+Transverse colon	204	133	138	3290	3755
+Descending colon	227	171	250	3455	3895
+Sigmoid colon	222	196	55	3750	4190
+Rectum	227	212	212	4165	4495
+Anal canal	0	51	61	4500	4680
+External anal sphincter m.	107	23	59	4605	4745
+Liver	212	214	217	2520	3460
+Common hepatic duct	191	209	214	2915	3025
+Right hepatic duct	97	191	26	2720	3015
+Left hepatic duct	186	232	217	2630	2945
+Gallbladder	168	173	112	2925	3425
+Cystic duct	99	143	56	3020	3080
+Common bile duct	194	196	148	3020	3275
+Hepatopancreatic ampulla	214	222	107	3255	3310
+Pancreas	219	222	230	3010	3365
+Pancreatic duct	0	158	186	3260	3280
+Nasal cavity	214	217	222	715	885
+Maxillary sinus	125	153	186	695	815
+Maxillary sinus	181	222	227	695	815
+Sphenoidal sinus	0	69	61	615	715
+Sphenoidal sinus	217	237	158	615	715
+Frontal sinus	222	135	181	485	555
+Ethmoidal cells	242	125	0	610	705
+Larynx	69	99	122	1365	1460
+Cricothyroid m.	247	214	214	1375	1485
+Cricothyroid m.	240	176	168	1395	1485
+Posterior crico-arytenoid m.	235	209	120	1340	1435
+Posterior crico-arytenoid m.	237	222	156	1345	1440
+Lateral crico-arytenoid m.	240	168	0	1305	1410
+Lateral crico-arytenoid m.	245	231	189	1310	1415
+Trachea	122	99	99	1465	2005
+Main bronchus	209	122	41	1950	2165
+Superior lobar bronchus	242	89	0	1995	2045
+Apical segmental bronchus	237	217	89	1780	2005
+Posterior segmental bronchus	153	99	8	1960	2060
+Anterior segmental bronchus	250	209	133	1785	2115
+Middle lobar bronchus	250	143	107	2155	2230
+Lateral segmental bronchus	250	158	13	2205	2275
+Medial segmental bronchus	230	176	18	2225	2255
+Inferior lobar bronchus	237	207	61	2155	2300
+Superior segmental bronchus	250	92	89	2150	2270
+Medial basal segmental bronchus	250	163	135	2305	2470
+Anterior basal segmental bronchus	199	209	196	2305	2485
+Lateral basal segmental bronchus	252	201	117	2360	2550
+Posterior basal segmental bronchus	201	122	0	2260	2355
+Main bronchus	232	191	171	1950	2130
+Superior lobar bronchus	250	110	54	2050	2150
+Apicoposterior segmental bronchus	252	171	79	1810	2030
+Anterior segmental bronchus	199	148	13	2015	2055
+Superior lingular segmental bronchus	255	199	130	2130	2175
+Inferior lingular segmental bronchus	217	79	0	2140	2375
+Inferior lobar bronchus	194	94	3	2120	2280
+Superior segmental bronchus	212	71	15	2140	2270
+Medial basal segmental bronchus	158	82	5	2275	2550
+Anterior basal segmental bronchus	250	222	105	2275	2420
+Lateral basal segmental bronchus	252	184	82	2265	2355
+Posterior basal segmental bronchus	107	71	15	2265	2550
+Lung	227	107	77	1540	3160
+Lung	247	214	212	1540	3160
+Kidney	140	143	214	3065	3545
+Kidney	130	156	0	2985	3565
+Ureter	242	232	199	3600	4295
+Ureter	232	222	186	3600	4315
+Urinary bladder (mural)	153	143	130	4200	4495
+Urinary bladder (luminal)	0	84	77	4290	4405
+Preprostatic part of urethra	245	66	87	4410	4450
+Prostatic urethra	61	77	89	4455	4535
+Intermediate part of urethra	247	69	82	4540	4580
+Spongy urethra	128	115	15	4585	4765
+Testis	240	237	115	4650	4810
+Testis	237	237	135	4685	4815
+Epididymis	168	8	77	4560	4800
+Epididymis	122	28	61	4565	4790
+Ductus deferens	166	130	0	4160	4730
+Ductus deferens	130	102	13	4105	4700
+Seminal vesicle	212	133	250	4310	4420
+Seminal vesicle	171	115	5	4310	4420
+Ejaculatory duct	250	135	61	4430	4450
+Prostate	245	112	0	4405	4525
+Corpus cavernosa penis	163	61	5	4495	4705
+Corpus cavernosa penis	133	54	15	4490	4685
+Corpus spongiosum penis	209	36	33	4545	4765
+Superficial transverse perineal m.	0	196	181	4570	4645
+Superficial transverse perineal m.	71	214	199	4570	4645
+Ischiocavernosus m.	235	38	41	4580	4625
+Ischiocavernosus m.	250	156	166	4580	4615
+Bulbospongiosus m.	250	130	143	4605	4665
+Deep transverse perineal m.	240	199	201	4520	4615
+External urethral sphincter m.	145	0	69	4510	4575
+Adenohypophysis	92	38	36	595	625
+Neurohypophysis	250	99	120	595	625
+Thyroid gland	252	184	55	1370	1620
+Heart	252	140	161	1935	2570
+Pericardial cavity	161	140	252	1930	2630
+Right ventricle	79	168	0	1950	2560
+Right atrium	163	217	99	2205	2555
+Tricuspid valve	102	0	161	2270	2470
+Pulmonary valve	245	232	92	2045	2170
+Left ventricle	168	230	214	2110	2460
+Left atrium	0	130	107	2105	2410
+Mitral valve	247	212	23	2225	2390
+Aortic valve	191	148	13	2110	2265
+Pulmonary trunk	89	33	84	2025	2075
+Pulmonary a.	247	181	18	1970	2370
+Pulmonary a.	135	117	20	1950	2150
+Ascending aorta	194	199	186	1900	2105
+Right coronary a.	120	87	10	2150	2515
+Sinu-atrial nodal branch	237	204	97	2160	2185
+Posterior interventricular branch	112	89	28	2510	2530
+Atrioventricular nodal branch	209	97	100	2430	2530
+Left coronary a.	79	38	8	2115	2135
+Anterior interventricular branch	207	20	43	2125	2550
+Circumflex branch	252	181	122	2135	2515
+Left marginal a.	130	0	143	2160	2340
+Arch of aorta	158	191	227	1815	1895
+Brachiocephalic trunk	252	201	84	1635	1855
+Common carotid a.	255	194	0	1195	1630
+Common carotid a.	250	156	110	1180	1825
+External carotid a.	120	41	28	835	1190
+External carotid a.	189	56	38	840	1175
+Internal carotid a.	158	41	43	610	1185
+Internal carotid a.	204	41	43	620	1175
+Subclavian a.	135	33	46	1525	1640
+Subclavian a.	117	38	200	1540	1810
+Vertebral a.	143	33	64	825	1500
+Vertebral a.	173	3	59	825	1500
+Basilar a.	240	186	212	655	710
+Axillary a.	245	143	199	1645	1940
+Axillary a.	242	102	181	1645	1940
+Brachial a.	230	23	148	1950	2980
+Brachial a.	209	3	115	1945	2980
+Deep brachial a.	153	26	145	2235	2635
+Deep brachial a.	173	13	166	1965	2645
+Radial a.	245	194	219	2985	4140
+Radial a.	247	173	214	2985	4140
+Ulnar a.	227	186	111	2985	4165
+Descending aorta	217	115	0	1900	3595
+Celiac trunk	64	18	166	2925	3005
+Left gastric a.	18	28	77	2910	2955
+Common hepatic a.	0	61	110	2990	3015
+Gastroduodenal a.	0	41	200	3020	3165
+Proper hepatic a.	0	51	171	2965	3015
+Cystic a.	173	219	227	3020	3165
+Splenic a.	105	204	230	2975	3165
+Superior mesenteric a.	117	209	100	3015	3800
+Inferior mesenteric a.	130	212	196	3335	3800
+Common iliac a.	156	217	194	3600	3825
+Common iliac a.	0	102	84	3600	3835
+Internal iliac a.	0	138	128	3830	4070
+Internal iliac a.	135	222	209	3840	4055
+lliolumbar a.	237	181	70	3790	3950
+Obturator a.	168	222	140	4075	4520
+Obturator a.	161	219	135	4000	4520
+Superior gluteal a.	181	186	5	4025	4140
+Superior gluteal a.	201	219	3	3970	4140
+Inferior gluteal a.	161	0	130	4075	4300
+Inferior gluteal a.	122	31	94	4060	4300
+Inferior vesical a.	0	189	181	4075	4280
+Inferior vesical a.	87	212	204	4030	4260
+Internal pudendal a.	0	171	150	4140	4660
+Internal pudendal a.	79	199	181	4060	4660
+External iliac a.	107	28	58	3830	4400
+External iliac a.	138	0	77	3840	4400
+Inferior epigastric a.	235	161	214	4400	4475
+Femoral a.	0	107	250	4405	5705
+Femoral a.	0	84	64	4405	5705
+Deep femoral a.	186	212	5	4430	4995
+Deep femoral a.	158	171	5	4430	5035
+Popliteal a.	204	196	15	5710	6305
+Popliteal a.	232	224	250	5710	6305
+Anterior tibial a.	207	196	186	6310	6745
+Anterior tibial a.	189	176	166	6310	6745
+Posterior tibial a.	36	41	46	6310	6660
+Posterior tibial a.	36	36	36	6310	6660
+Coronary sinus	217	214	250	2400	2520
+Great cardiac v.	201	201	250	2150	2485
+Middle cardiac v.	115	115	115	2490	2555
+Small cardiac v.	102	99	102	2425	2540
+Superior pulmonary v.	61	46	250	1950	2250
+Inferior pulmonary v.	219	217	209	2245	2550
+Superior pulmonary v.	158	156	112	1945	2260
+Inferior pulmonary v.	199	189	138	2170	2410
+Superior vena cava	227	217	250	1935	2210
+Brachiocephalic vein	158	33	61	1450	1930
+Internal jugular v.	179	84	8	780	1470
+Internal jugular v.	214	191	176	780	1500
+Transverse sinus	117	41	41	550	630
+Transverse sinus	242	184	191	550	595
+Confluence of sinuses	120	56	46	515	545
+Occipital sinus	214	191	168	590	715
+Sigmoid sinus	235	191	191	635	775
+Sigmoid sinus	240	204	201	600	775
+Superior sagittal sinus	69	28	28	90	495
+Inferior sagittal sinus	224	189	186	345	445
+Straight sinus	107	46	110	450	510
+Subclavian v.	191	227	135	1560	1720
+Subclavian v.	173	71	82	1535	1665
+Axillary v.	247	117	148	1610	1970
+Axillary v.	240	61	105	1610	1930
+Brachial v.	227	13	64	1975	2645
+Brachial v.	204	3	92	1935	2885
+Basilic v.	168	3	79	2630	3090
+Basilic v.	191	18	56	2605	3125
+Cephalic v.	0	166	22	1945	3750
+Cephalic v.	171	3	92	1945	3035
+Azygos v.	128	41	61	1925	2555
+Hemi-azygos v.	97	33	71	2205	2555
+Accessory hemi-azygos v.	242	201	219	1880	2190
+Inferior vena cava	181	148	161	2560	3795
+Right hepatic v	92	82	120	2635	3045
+Intermediate hepatic v	176	166	240	2635	3050
+Left hepatic v	250	80	30	2610	2630
+Renal v.	158	77	171	3035	3255
+Renal v.	133	36	143	3035	3255
+Common iliac v.	153	31	54	3800	3945
+Internal iliac v.	82	33	170	3950	4020
+Internal iliac v.	153	0	171	3875	3900
+External iliac v.	117	41	54	3950	4300
+External iliac v.	237	171	100	3875	4300
+Great saphenous v.	222	191	217	4485	7200
+Great saphenous v.	230	107	194	4470	7200
+Small saphenous v.	242	130	201	6015	6265
+Small saphenous v.	199	0	125	6510	6595
+Femoral v.	224	69	122	4305	5600
+Femoral v.	232	122	163	4305	5660
+Popliteal v.	110	18	240	5605	6090
+Popliteal v.	15	4	247	5665	6070
+Superior mesenteric v.	171	176	199	2925	3265
+Splenic v.	168	196	196	3040	3280
+Inferior mesenteric v.	207	5	69	3180	3260
+Spleen	173	186	30	2705	3570
+Spinal cord	250	191	230	835	3070
+Brainstem	184	105	5	570	830
+Cerebellum	217	0	0	455	815
+Thalamus	166	214	201	400	650
+Frontal lobe	179	199	227	95	625
+Frontal lobe	222	227	133	95	625
+Parietal lobe	0	105	115	110	470
+Parietal lobe	0	125	140	110	450
+Occipital lobe	0	115	250	205	585
+Occipital lobe	0	135	125	205	580
+Temporal lobe	148	181	224	395	720
+Temporal lobe	199	230	227	385	715
+Fornix	112	120	69	420	555
+Lateral ventricle	150	148	145	345	560
+Lateral ventricle	163	161	158	350	550
+Amygdaloid nucleus	232	224	186	535	565
+Amygdaloid nucleus	217	224	150	535	575
+Caudate nucleus	209	227	80	340	530
+Caudate nucleus	0	181	217	340	530
+Putamen	110	201	224	390	590
+Putamen	219	219	0	390	590
+Globus pallidus	199	207	217	450	595
+Globus pallidus	235	209	214	450	590
+Claustrum	89	89	89	395	515
+Claustrum	122	122	120	395	515
+Optic n.	107	92	79	570	640
+Optic n.	140	125	112	570	640
+Brachial plexus	120	120	176	1505	1530
+Brachial plexus	214	227	230	1505	1530
+Median n.	240	222	50	2205	3875
+Median n.	0	130	74	2205	3875
+Ulnar n.	140	66	173	3210	3875
+Ulnar n.	92	20	94	3210	3875
+Radial n.	250	201	61	2225	2610
+Radial n.	245	222	140	2225	2610
+Anterior root of first lumbar n.	130	115	186	2945	3040
+Anterior root of first lumbar n.	43	13	97	2945	3050
+Anterior ramus of first lumbar n.	38	13	84	3045	3090
+Anterior ramus of first lumbar n.	51	13	115	3055	3085
+Anterior root of second lumbar n.	51	0	99	3070	3200
+Anterior root of second lumbar n.	112	79	191	3070	3215
+Posterior root of second lumbar n.	79	0	138	2945	3200
+Posterior root of second lumbar n.	38	5	82	2945	3215
+Anterior ramus of second lumbar n.	61	0	115	3205	3275
+Anterior ramus of second lumbar n.	38	26	64	3220	3270
+Anterior root of third lumbar n.	158	161	219	3070	3380
+Posterior root of third lumbar n.	89	79	191	2945	3380
+Anterior ramus of third lumbar n.	204	204	227	3385	3680
+Anterior root of fourth lumbar n.	23	26	99	3070	3540
+Anterior root of fourth lumbar n.	41	23	107	3070	3540
+Posterior root of fourth lumbar n.	0	36	105	2945	3540
+Posterior root of fourth lumbar n.	20	31	120	2945	3540
+Anterior ramus of fourth lumbar n.	13	31	97	3545	3680
+Anterior ramus of fourth lumbar n.	54	15	143	3545	3680
+Anterior root of fifth lumbar n.	122	171	222	3070	3675
+Posterior root of fifth lumbar n.	0	48	130	2945	3675
+Posterior root of fifth lumbar n.	26	117	207	2945	3675
+Anterior ramus of fifth lumbar n.	0	56	150	3070	3950
+Anterior ramus of fifth lumbar n.	0	33	188	3680	3950
+Anterior root of first sacral n.	0	46	99	3070	3760
+Anterior root of first sacral n.	120	179	224	3070	3760
+Posterior root of first sacral n.	158	201	227	2945	3760
+Posterior root of first sacral n.	0	71	186	2945	3760
+Anterior ramus of first sacral n.	0	56	130	3765	4220
+Anterior ramus of first sacral n.	0	36	77	3765	4220
+Anterior root of second sacral n.	0	163	224	3070	3830
+Anterior root of second sacral n.	0	87	166	3070	3830
+Posterior root of second sacral n.	176	217	230	2945	3830
+Posterior root of second sacral n.	0	51	82	2945	3830
+Anterior ramus of second sacral n.	87	181	224	3835	4220
+Anterior ramus of second sacral n.	0	94	196	3835	4220
+Anterior root of third sacral n.	0	184	224	3625	3880
+Anterior root of third sacral n.	0	125	204	3625	3880
+Posterior root of third sacral n.	0	120	171	2975	3880
+Posterior root of third sacral n.	0	102	158	2945	3880
+Anterior ramus of third sacral n.	0	77	105	3885	4220
+Anterior ramus of third sacral n.	87	191	227	3885	4220
+Superior gluteal n.	125	120	5	4060	4160
+Superior gluteal n.	148	145	8	4060	4160
+Inferior gluteal n.	153	219	222	4235	4320
+Inferior gluteal n.	0	102	92	4235	4320
+Obturator n.	158	125	100	3700	4380
+Obturator n.	212	176	18	3700	4380
+Femoral n.	168	143	111	4005	4705
+Femoral n.	247	227	84	3660	4705
+Sciatic n.	161	125	250	4005	5730
+Sciatic n.	247	214	125	4005	5730
+Tibial n.	237	194	130	8075	8100
+Tibial n.	232	158	71	8075	8100
+Common fibular n.	0	133	161	5735	6555
+Common fibular n.	0	153	186	5735	6980
+Superficial fibular n.	222	214	204	6985	7850
+Superficial fibular n.	54	54	48	6985	7850
+Deep fibular n.	173	0	120	6985	7775
+Deep fibular n.	199	10	143	6985	7775
+Eyeball	250	128	61	590	715
+Eyeball	245	102	0	585	710
+Superior rectus m.	232	235	56	560	600
+Superior rectus m.	227	230	15	555	595
+Inferior rectus m.	168	153	143	625	720
+Inferior rectus m.	150	135	125	635	715
+Medial rectus m.	209	204	196	605	675
+Medial rectus m.	191	186	181	610	675
+Lateral rectus m.	173	161	50	605	675
+Lateral rectus m.	163	148	230	585	675
+Superior oblique m.	237	186	250	585	620
+Superior oblique m.	240	194	100	580	615
+Inferior oblique m.	196	199	212	685	750
+Inferior oblique m.	217	217	30	680	745
+Levator palpebrae superioris m.	199	212	30	555	595
+Levator palpebrae superioris m.	184	204	100	550	595
+External acoustic meatus	184	179	173	715	765
+External acoustic meatus	194	191	240	715	765
+Tympanic cavity	222	217	179	715	740
+Tympanic cavity	214	209	166	715	740
+Auditory tube	148	148	143	715	725
+Auditory tube	173	171	166	715	720
+Skin	113	89	15	0	8505
