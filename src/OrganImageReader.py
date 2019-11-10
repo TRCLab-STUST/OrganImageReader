@@ -97,6 +97,8 @@ class OrganImageReader:
         _, thresh = cv2.threshold(image_gray, 127, 255, 0)
         self.contours, _ = cv2.findContours(thresh, cv2.RETR_TREE, cv2.CHAIN_APPROX_NONE)
         self.logger_send('Number of contours=' + str(len(self.contours)))
+        if len(self.contours) == 0:
+            return None
         self.logger_send('contours[0]=', self.contours[0])
         cv2.drawContours(image, self.contours, -1, (0, 0, 255), 1)
         return image

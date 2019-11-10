@@ -2,7 +2,7 @@ import OrganImageReader as oir
 import cv2
 
 # 使否顯示除錯訊息
-debug = False
+debug = True
 
 
 def main():
@@ -16,13 +16,14 @@ def main():
     # 找出圖片的器官
     organ_reader.find_organ()
     # 建立過濾後器官圖片
-    organ_reader.filter_organ(784)
+    organ_reader.filter_organ(297)
     # 顯示過濾後圖片
     cv2.imshow("Filter Image", organ_reader.image_filter)
     # 建立過濾後圖片輪廓
     image = organ_reader.draw_contours()
     # 顯示繪製完輪廓的圖片
-    cv2.imshow('Contours', image)
+    if image is not None:
+        cv2.imshow('Contours', image)
 
 
 if __name__ == '__main__':
