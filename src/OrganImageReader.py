@@ -2,6 +2,7 @@ from PIL import Image
 import numpy as np
 import cv2
 import csv
+import os
 
 
 class OrganImageReader:
@@ -16,6 +17,7 @@ class OrganImageReader:
         self.image = None
         self.image_origin = None
         self.image_filter = None
+        self.image_size = None
 
     def load_table(self, table_path, delim='\t'):
         # 開啟檔案 color.txt
@@ -49,6 +51,8 @@ class OrganImageReader:
     def load_image(self, image_path):
         # 使用 Pillow 讀取圖片
         self.image = Image.open(image_path)
+        # 讀取圖片大小(Bytes)
+        self.image_size = os.path.getsize(image_path)
         # 把圖片轉為 RGB 陣列存起來
         image_rgb = np.array(self.image)
         # 因為 OpenCV 是使用 BGR 所以把圖片轉為 BGR 色調
@@ -65,6 +69,7 @@ class OrganImageReader:
         self.logger_send('顯示讀取到的圖片(image_origin)資料')
         self.logger_send('len(image_origin_rgb_set)=', len(self.image_origin_rgb_set))
         self.logger_send('image_origin_rgb_set=', self.image_origin_rgb_set)
+        self.logger_send('image_size(bytes)=',self.image_size)
 
     def find_organ(self):
         # 找到表格與圖片顏色的交集
