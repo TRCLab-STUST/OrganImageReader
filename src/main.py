@@ -41,7 +41,10 @@ def main():
         # if image is not None:
         #     cv2.imshow('Contours', image)
 
-        data = {}
+        json_file = open(JSON_PATH, 'r')
+        json_file_data = json_file.read()
+
+        data = json.loads(json_file_data)
         key = filename + str(organ_reader.image_size)
         data[key] = {}
         data[key]['fileref'] = ''
