@@ -69,11 +69,11 @@ class OrganImageReader:
         self.logger_send('顯示讀取到的圖片(image_origin)資料')
         self.logger_send('len(image_origin_rgb_set)=', len(self.image_origin_rgb_set))
         self.logger_send('image_origin_rgb_set=', self.image_origin_rgb_set)
-        self.logger_send('image_size(bytes)=',self.image_size)
+        self.logger_send('image_size(bytes)=', self.image_size)
 
     def find_organ(self):
         # 找到表格與圖片顏色的交集
-        find_organ_set = self.organ_rgb_set.intersection(self.image_origin_rgb_set)
+        find_organ_set = set(self.organ_rgb_set).intersection(set(self.image_origin_rgb_set))
         mask_ = []
         for mask in find_organ_set:
             mask_.append([*mask, ])
@@ -100,7 +100,7 @@ class OrganImageReader:
         image = np.array(self.image_filter)
         image_gray = cv2.cvtColor(self.image_filter, cv2.COLOR_BGR2GRAY)
         _, thresh = cv2.threshold(image_gray, 127, 255, 0)
-        self.contours, _ = cv2.findContours(thresh, cv2.RETR_TREE, cv2.CHAIN_APPROX_NONE)
+        self.contours, _ = cv2.findContours(thresh, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
         self.logger_send('Number of contours=' + str(len(self.contours)))
         if len(self.contours) == 0:
             return None
