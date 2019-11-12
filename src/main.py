@@ -41,6 +41,10 @@ def main():
         # if image is not None:
         #     cv2.imshow('Contours', image)
 
+        json_open = open(JSON_PATH, 'w')
+        json_open.write("{\n}")
+        json_open.close()
+
         json_file = open(JSON_PATH, 'r')
         json_file_data = json_file.read()
 
