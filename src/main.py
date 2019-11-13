@@ -21,6 +21,14 @@ def main():
     organ_reader.load_table(TABLE_PATH)
     # 讀取整個資料夾的.bmp
     images = glob.glob(IMAGES_DIR + "*.bmp", recursive=True)
+
+    json_open = open(JSON_PATH, 'w')
+    json_open.write("{\n}")
+    json_open.close()
+    json_file = open(JSON_PATH, 'r')
+    json_file_data = json_file.read()
+    data = json.loads(json_file_data)
+
     # 逐張
     for image in images:
         # 取得檔案名子
@@ -41,14 +49,6 @@ def main():
         # if image is not None:
         #     cv2.imshow('Contours', image)
 
-        json_open = open(JSON_PATH, 'w')
-        json_open.write("{\n}")
-        json_open.close()
-
-        json_file = open(JSON_PATH, 'r')
-        json_file_data = json_file.read()
-
-        data = json.loads(json_file_data)
         key = filename + str(organ_reader.image_size)
         data[key] = {}
         data[key]['fileref'] = ''
@@ -74,8 +74,8 @@ def main():
             data[key]['regions'][n]['region_attributes'] = {}
             data[key]['regions'][n]['region_attributes']['name'] = FIND_INDEX
 
-        with open(JSON_PATH, "w") as file_write:
-            json.dump(data, file_write, default=int)
+    with open(JSON_PATH, "a") as file_write:
+        json.dump(data, file_write, default=int)
 
 
 if __name__ == '__main__':
