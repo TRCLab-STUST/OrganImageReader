@@ -14,7 +14,7 @@ def main():
     IMAGES_DIR = os.path.join(ROOT_DIR, "resource/(VKH) Segmented Images (1,000 X 570)/")
     JSON_PATH = os.path.join(ROOT_DIR, "json/output.json")
     TABLE_PATH = os.path.join(ROOT_DIR, "resource/color.txt")
-    FIND_INDEX = 784
+    FIND_INDEX = [1, 2, 3, 4]
 
     organ_reader = oir.OrganImageReader(debug)
     # 讀取資料表
@@ -22,6 +22,7 @@ def main():
     # 讀取整個資料夾的.bmp
     images = glob.glob(IMAGES_DIR + "*.bmp", recursive=True)
 
+    # 創建.Json
     json_open = open(JSON_PATH, 'w')
     json_open.write("{\n}")
     json_open.close()
@@ -31,23 +32,13 @@ def main():
 
     # 逐張
     for image in images:
-        # 取得檔案名子
+        # 取得檔案名字
         filename = os.path.basename(image)
+        print("Image: " + filename + "\n")
         # 讀取圖片
         organ_reader.load_image(image)
-        # 顯示原始圖片
-        # cv2.imshow("Origin Image", organ_reader.image_origin)
         # 找出圖片的器官
         organ_reader.find_organ()
-        # 建立過濾後器官圖片
-        organ_reader.filter_organ(FIND_INDEX)
-        # 顯示過濾後圖片
-        # cv2.imshow("Filter Image", organ_reader.image_filter)
-        # 建立過濾後圖片輪廓
-        image = organ_reader.draw_contours()
-        # 顯示繪製完輪廓的圖片
-        # if image is not None:
-        #     cv2.imshow('Contours', image)
 
         key = filename + str(organ_reader.image_size)
         data[key] = {}
@@ -57,22 +48,29 @@ def main():
         data[key]['base64_img_data'] = ''
         data[key]['file_attributes'] = {}
         data[key]['regions'] = {}
+        a = 0
+        for idx in FIND_INDEX:
+            # 建立過濾後器官圖片
+            organ_reader.filter_organ(idx)
+            # 建立過濾後圖片輪廓
+            _ = organ_reader.draw_contours()
 
-        for n in range(0, len(organ_reader.contours)):
-            list_x = []
-            list_y = []
-            for point in organ_reader.contours[n]:
-                for x, y in point:
-                    list_x.append(x)
-                    list_y.append(y)
+            for n in range(0, len(organ_reader.contours)):
+                list_x = []
+                list_y = []
+                for point in organ_reader.contours[n]:
+                    for x, y in point:
+                        list_x.append(x)
+                        list_y.append(y)
 
-            data[key]['regions'][n] = {}
-            data[key]['regions'][n]['shape_attributes'] = {}
-            data[key]['regions'][n]['shape_attributes']['name'] = 'polygon'
-            data[key]['regions'][n]['shape_attributes']['all_points_x'] = list_x
-            data[key]['regions'][n]['shape_attributes']['all_points_y'] = list_y
-            data[key]['regions'][n]['region_attributes'] = {}
-            data[key]['regions'][n]['region_attributes']['name'] = str(FIND_INDEX)
+                data[key]['regions'][a+n] = {}
+                data[key]['regions'][a+n]['shape_attributes'] = {}
+                data[key]['regions'][a+n]['shape_attributes']['name'] = 'polygon'
+                data[key]['regions'][a+n]['shape_attributes']['all_points_x'] = list_x
+                data[key]['regions'][a+n]['shape_attributes']['all_points_y'] = list_y
+                data[key]['regions'][a+n]['region_attributes'] = {}
+                data[key]['regions'][a+n]['region_attributes']['name'] = str(idx)
+        a += 1
 
     with open(JSON_PATH, "w") as file_write:
         json.dump(data, file_write, default=int)
