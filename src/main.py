@@ -72,9 +72,9 @@ def main():
             data[key]['regions'][n]['shape_attributes']['all_points_x'] = list_x
             data[key]['regions'][n]['shape_attributes']['all_points_y'] = list_y
             data[key]['regions'][n]['region_attributes'] = {}
-            data[key]['regions'][n]['region_attributes']['name'] = FIND_INDEX
+            data[key]['regions'][n]['region_attributes']['name'] = str(FIND_INDEX)
 
-    with open(JSON_PATH, "a") as file_write:
+    with open(JSON_PATH, "w") as file_write:
         json.dump(data, file_write, default=int)
 
 
