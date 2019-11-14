@@ -14,7 +14,7 @@ def main():
     IMAGES_DIR = os.path.join(ROOT_DIR, "resource/(VKH) Segmented Images (1,000 X 570)/")
     JSON_PATH = os.path.join(ROOT_DIR, "json/output.json")
     TABLE_PATH = os.path.join(ROOT_DIR, "resource/color.txt")
-    FIND_INDEX = [1, 2, 3, 4]
+    FIND_INDEX = [2, 3, 4]
 
     organ_reader = oir.OrganImageReader(debug)
     # 讀取資料表
@@ -53,7 +53,9 @@ def main():
             # 建立過濾後器官圖片
             organ_reader.filter_organ(idx)
             # 建立過濾後圖片輪廓
-            _ = organ_reader.draw_contours()
+            image_contours = organ_reader.draw_contours()
+
+            cv2.imshow('image', image_contours)
 
             for n in range(0, len(organ_reader.contours)):
                 list_x = []
@@ -63,14 +65,14 @@ def main():
                         list_x.append(x)
                         list_y.append(y)
 
-                data[key]['regions'][a+n] = {}
-                data[key]['regions'][a+n]['shape_attributes'] = {}
-                data[key]['regions'][a+n]['shape_attributes']['name'] = 'polygon'
-                data[key]['regions'][a+n]['shape_attributes']['all_points_x'] = list_x
-                data[key]['regions'][a+n]['shape_attributes']['all_points_y'] = list_y
-                data[key]['regions'][a+n]['region_attributes'] = {}
-                data[key]['regions'][a+n]['region_attributes']['name'] = str(idx)
-        a += 1
+                data[key]['regions'][a] = {}
+                data[key]['regions'][a]['shape_attributes'] = {}
+                data[key]['regions'][a]['shape_attributes']['name'] = 'polygon'
+                data[key]['regions'][a]['shape_attributes']['all_points_x'] = list_x
+                data[key]['regions'][a]['shape_attributes']['all_points_y'] = list_y
+                data[key]['regions'][a]['region_attributes'] = {}
+                data[key]['regions'][a]['region_attributes']['name'] = str(idx)
+                a += 1
 
     with open(JSON_PATH, "w") as file_write:
         json.dump(data, file_write, default=int)
