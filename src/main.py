@@ -11,7 +11,9 @@ debug = False
 def main():
     # 各種路徑
     ROOT_DIR = os.path.abspath("../")
-    IMAGES_DIR = os.path.join(ROOT_DIR, "resource/(VKH) Segmented Images (1,000 X 570)/")
+    IMAGES_DIR = os.path.join(ROOT_DIR, "resource/")
+    VKH_DIR = os.path.join(IMAGES_DIR, "(VKH) Segmented Images (1,000 X 570)/")
+    BIGGER_DIR = os.path.join(IMAGES_DIR, "BiggerCT/")
     JSON_PATH = os.path.join(ROOT_DIR, "json/output.json")
     TABLE_PATH = os.path.join(ROOT_DIR, "resource/color.txt")
     FIND_INDEX = [1, 2]
@@ -20,7 +22,7 @@ def main():
     # 讀取資料表
     organ_reader.load_table(TABLE_PATH)
     # 讀取整個資料夾的.bmp
-    images = glob.glob(IMAGES_DIR + "*.bmp", recursive=True)
+    images = glob.glob(VKH_DIR + "*.bmp", recursive=True)
 
     # 創建.Json
     json_open = open(JSON_PATH, 'w')
@@ -39,11 +41,11 @@ def main():
         organ_reader.load_image(image)
         # 找出圖片的器官
         organ_reader.find_organ()
-
-        key = filename + str(organ_reader.image_size)
+        ctsize = os.path.getsize(BIGGER_DIR + filename)
+        key = filename + str(ctsize)
         data[key] = {}
         data[key]['fileref'] = ''
-        data[key]['size'] = organ_reader.image_size
+        data[key]['size'] = ctsize
         data[key]['filename'] = filename
         data[key]['base64_img_data'] = ''
         data[key]['file_attributes'] = {}
@@ -54,9 +56,6 @@ def main():
             organ_reader.filter_organ(idx)
             # 建立過濾後圖片輪廓
             image_contours = organ_reader.draw_contours()
-
-            if image_contours is not None:
-                cv2.imshow(filename + 'Contours' + str(idx), image_contours)
 
             for n in range(0, len(organ_reader.contours)):
                 list_x = []
