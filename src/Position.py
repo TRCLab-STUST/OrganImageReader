@@ -9,17 +9,19 @@ ROOT_DIR = os.path.abspath("../")
 TABLE_PATH = os.path.join(ROOT_DIR, "resource/color.txt")
 vkh = "../resource/(VKH) Segmented Images (1,000 X 570)/0125.bmp"
 ct = "../resource/CT/0125.jpg"
+bigger = "../resource/BiggerCT/0125.jpg"
 vkhimg = cv2.imread(vkh)
 ctimg = cv2.imread(ct)
+biggerimg = cv2.imread(bigger)
 
 vh, vw = np.shape(vkhimg)[:2]
 ch, cw = np.shape(ctimg)[:2]
+bh, bw = np.shape(biggerimg)[:2]
 scaleh, scalew = [round(vh / ch), round(vw / cw)]
 print("Vkh = " + str(vh) + "X" + str(vw))
 print("Ct = " + str(ch) + "X" + str(cw))
+print("Bigger = " + str(bh) + "X" + str(bw))
 print("scale = " + str(scaleh) + "X" + str(scalew))
-
-
 
 
 organ_reader = oir.OrganImageReader(debug)
@@ -36,11 +38,13 @@ image_contours = organ_reader.draw_contours()
 
 if image_contours is not None:
     cv2.drawContours(vkhimg, organ_reader.contours, -1, (0, 0, 255), 1)
+    cv2.drawContours(biggerimg, organ_reader.contours, -1, (0, 0, 255), 1)
     cv2.imshow('vkh', vkhimg)
+    cv2.imshow('bigger', biggerimg)
 
     for contour in organ_reader.contours:
-        contour[:, :, 0] = contour[:, :, 0] * 0.5
-        contour[:, :, 1] = contour[:, :, 1] * 0.5
+        contour[:, :, 0] = contour[:, :, 0] * (1/scaleh)
+        contour[:, :, 1] = contour[:, :, 1] * (1/scalew)
 
     cv2.drawContours(ctimg, contour, -1, (0, 0, 255), 1)
     cv2.imshow('ct', ctimg)
