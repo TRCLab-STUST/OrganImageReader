@@ -3,6 +3,7 @@ import cv2
 import os
 import glob
 import json
+import numpy as np
 
 # 使否顯示除錯訊息
 debug = False
@@ -12,17 +13,17 @@ def main():
     # 各種路徑
     ROOT_DIR = os.path.abspath("../")
     IMAGES_DIR = os.path.join(ROOT_DIR, "resource/")
-    VKH_DIR = os.path.join(IMAGES_DIR, "(VKH) Segmented Images (1,000 X 570)/")
-    BIGGER_DIR = os.path.join(IMAGES_DIR, "BiggerCT/")
+    COLOR_DIR = os.path.join(IMAGES_DIR, "color/")
+    ORG_DIR = os.path.join(IMAGES_DIR, "org/")
     JSON_PATH = os.path.join(ROOT_DIR, "json/output.json")
     TABLE_PATH = os.path.join(ROOT_DIR, "resource/color.txt")
-    FIND_INDEX = [1, 2]
+    FIND_INDEX = np.arange(40, 68)
 
     organ_reader = oir.OrganImageReader(debug)
     # 讀取資料表
     organ_reader.load_table(TABLE_PATH)
     # 讀取整個資料夾的.bmp
-    images = glob.glob(VKH_DIR + "*.bmp", recursive=True)
+    images = glob.glob(COLOR_DIR + "*.bmp", recursive=True)
 
     # 創建.Json
     json_open = open(JSON_PATH, 'w')
@@ -36,16 +37,18 @@ def main():
     for image in images:
         # 取得檔案名字
         filename = os.path.basename(image)
+        filename = filename[:-3]
+        filename = filename + "jpg"
         print("Image: " + filename + "\n")
         # 讀取圖片
         organ_reader.load_image(image)
         # 找出圖片的器官
         organ_reader.find_organ()
-        ctsize = os.path.getsize(BIGGER_DIR + filename)
-        key = filename + str(ctsize)
+        size = os.path.getsize(ORG_DIR + filename)
+        key = filename + str(size)
         data[key] = {}
         data[key]['fileref'] = ''
-        data[key]['size'] = ctsize
+        data[key]['size'] = size
         data[key]['filename'] = filename
         data[key]['base64_img_data'] = ''
         data[key]['file_attributes'] = {}
